@@ -10,10 +10,10 @@ class Project
     @backer << backer 
     backer.add_backer
     backer.back_project(self) unless backer.back_project.include?(self) 
-  
-  
-  
-  
-  
-  
+  end 
 end 
+  
+  
+  
+  
+  
